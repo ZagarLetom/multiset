@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "s21_containersplus.h"
+#include "s21_multiset.h"
 
 TEST(Constructor_MULTISET, def_const) {
   s21::multiset<int> intMultiset({1, 2, 3, 4, 5, 5, 6, 2, 4, 4, 4});
